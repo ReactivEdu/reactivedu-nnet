@@ -12,4 +12,12 @@ class NeuronWithReLUTest extends AnyFlatSpec with should.Matchers {
     val outputVector = neuron activate inputVector
     outputVector should be(expectedVector)
   }
+
+  "activate" should "return the same vector as input if all input values are positive" in {
+    val neuron = NeuronWithReLU
+    val inputVector = DenseVector(.1, .5, .1)
+    val expectedVector = DenseVector(.1, .5, .1)
+    val outputVector = neuron activate inputVector
+    outputVector should be(expectedVector)
+  }
 }
