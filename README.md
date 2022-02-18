@@ -1,3 +1,3 @@
-# Reactive Dü Neural Network
+# Reactive DU Neural Network
 
 This is a simple neural network implemented in Scala. For educational purposes only. Companion repository for blog posts under construction.
