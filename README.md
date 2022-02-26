@@ -1,4 +1,4 @@
-# Reactive DU Neural Network
+# Reactive Dev Universe Neural Network
 
 [![CircleCI](https://circleci.com/gh/reactivedu/reactivedu-nnet/tree/main.svg?style=svg)](https://circleci.com/gh/reactivedu/reactivedu-nnet/tree/main)
 
